@@ -8,4 +8,4 @@ RUN apt-get update
 RUN apt-get install --allow-unauthenticated -y google-chrome-stable
 
 RUN apt-get -y install python3-pip
-RUN pip3 install awscli --upgrade --user
+RUN pip3 install awscli --upgrade
