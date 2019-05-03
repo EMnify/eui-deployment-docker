@@ -9,3 +9,5 @@ RUN apt-get install --allow-unauthenticated -y google-chrome-stable
 
 RUN apt-get -y install python3-pip
 RUN pip3 install awscli --upgrade
+
+RUN apt-get -y install zip
