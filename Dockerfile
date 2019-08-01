@@ -1,4 +1,4 @@
-FROM node:9.2-stretch
+FROM node:10.16.0-jessie
 
 RUN yarn global add @angular/cli
 
